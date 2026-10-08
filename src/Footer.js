@@ -1,7 +1,9 @@
+import classes from "./Footer.module.css";
 const Footer = () => {
   return (
-    <div>
-      <div>
+    <div className={classes.flexGrid}>
+      <img src="restaurant.jpg" alt="restraunt" />
+      <div className={classes.flexCard}>
         <h1>Doormat Navigation</h1>
         <ul>
           <li>
@@ -24,7 +26,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div>
+      <div className={classes.flexCard}>
         <h1>Contact</h1>
         <ul>
           <li>
@@ -38,7 +40,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div>
+      <div className={classes.flexCard}>
         <h1>Social Media Links</h1>
         <ul>
           <li>

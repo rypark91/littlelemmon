@@ -1,0 +1,33 @@
+.flexGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f4ce14;
+  width: 100%;
+  min-height: 413px;
+  font-family: "Inter", sans-serif;
+  margin: 0 auto;
+}
+.flexCard {
+  width: 300px;
+}
+.flexGrid img {
+  width: 417px;
+  height: 278px;
+  margin: 30px 60px;
+}
+.flexGrid h1 {
+  font-size: 24px;
+  font-weight: medium;
+  color: #495e57;
+}
+.flexGrid li {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: medium;
+}
+.flexGrid a {
+  text-decoration-line: none;
+  color: #495e57;
+}

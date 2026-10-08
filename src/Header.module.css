@@ -1,0 +1,49 @@
+.headerContainer {
+  color: #f4ce14;
+  background-color: #495e57;
+  width: 100%;
+  height: 587px;
+  font-family: "Markazi Text", serif;
+}
+.headerContainer h1 {
+  font-size: 64px;
+  margin: 40px 40px;
+}
+.headerContainer h2 {
+  font-size: 40px;
+  margin: 40px 40px;
+}
+.headerContainer p {
+  font-size: 18px;
+  color: #fdbabb;
+  font-family: "Karla", sans-serif;
+  margin: 40px 40px;
+}
+.headerContainer button {
+  font-size: 18px;
+  color: #495e57;
+  background-color: #f4ce14;
+  width: 224px;
+  height: 87px;
+  border-radius: 16px;
+  border: none;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  margin: 40px 40px;
+}
+.headerContainer img {
+  width: 416px;
+  height: 628px;
+  border-radius: 16px;
+  position: absolute;
+  top: 200px;
+  left: 60vw;
+}
+@media (min-width: 300px) and (max-width: 980px) {
+  .headerContainer img {
+    top: 340px;
+    left: 56vw;
+    width: 208px;
+    height: 314px;
+  }
+}

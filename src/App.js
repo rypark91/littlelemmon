@@ -8,12 +8,12 @@ import React from "react";
 
 function App() {
   return (
-    <React>
-      <Header></Header>
+    <div className="App">
       <Nav></Nav>
+      <Header></Header>
       <Main></Main>
       <Footer></Footer>
-    </React>
+    </div>
   );
 }
 
